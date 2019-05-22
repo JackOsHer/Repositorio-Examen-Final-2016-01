@@ -16,15 +16,11 @@ for letra in str(numero):
 cien = "1"+"0"*(cont-1)
 primero = numero//int(cien)
 
-n=[str(numero)]
-for i in range(cont-1):
-    n.remove(str(i))
-
-
+n = str(numero)
 
 # Salida
 print("El primer digito es: ",primero)
-print("El ultimo digito es: ",n[0])
+print("El ultimo digito es: ",n[cont-1])
 
 
 
